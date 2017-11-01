@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Boilerplate</name>
+
+    <description>
+        Boilerplate App.
+    </description>
+
+    <author href="http://embrace-it.com" email="rizwanzaheerr@gmail.com">
+        Rizwan Zaheer
+    </author>
+    <platform name="android">
+        <preference name="orientation" value="portrait" />
+        <preference name="android-minSdkVersion" value="16" />
+        <preference name="loadUrlTimeoutValue" value="700000" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="SplashShowOnlyFirstTime" value="true" />
+        <preference name="FadeSplashScreen" value="false" />
+        <preference name="android-minSdkVersion" value="19" />
+        <preference name="AndroidLaunchMode" value="singleTask" />
+        <splash density="port-hdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-ldpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-mdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-xhdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-xxhdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-xxxhdpi" src="./include/splash/splash-screen.png" />
+        <icon density="hdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="ldpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="mdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="xhdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="xxhdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="xxxhdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+    </platform>
+    <platform name="ios">
+        <preference name="orientation" value="portrait" />
+        <preference name="android-minSdkVersion" value="16" />
+        <preference name="loadUrlTimeoutValue" value="700000" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="SplashMaintainAspectRatio" value="true" />
+        <preference name="SplashShowOnlyFirstTime" value="true" />
+        <preference name="FadeSplashScreen" value="false" />
+        <preference name="android-minSdkVersion" value="19" />
+        <preference name="AndroidLaunchMode" value="singleTask" />
+        <splash density="port-hdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-ldpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-mdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-xhdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-xxhdpi" src="./include/splash/splash-screen.png" />
+        <splash density="port-xxxhdpi" src="./include/splash/splash-screen.png" />
+        <icon density="hdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="ldpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="mdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="xhdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="xxhdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+        <icon density="xxxhdpi" src="./include/img/icon/JourneyTree_white_logo.png" />
+    </platform>
+    <!-- <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.0" /> -->
+    <preference name='phonegap-version' value='cli-6.5.0' />
+</widget>
